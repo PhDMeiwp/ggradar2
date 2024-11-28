@@ -31,7 +31,7 @@ and install it using the following method:
 ``` r
 devtools::install_local("~/ggradar2-master.zip")  # zip file
 
-devtools::install_local("~/ggradar2-master.tar.gz")    # tar.gz file
+devtools::install_local("~/ggradar2_0.3.tar.gz")    # tar.gz file
 
 # Please replace the path and filename with the information of the local file you downloaded. 
 ```
