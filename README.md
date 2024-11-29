@@ -7,8 +7,6 @@ This package is based on [ggradar](https://github.com/ricardo-bion/ggradar) crea
 ## Notes
 
 - The ownership of this "ggradar2" package belongs to [Ricardo Bion](https://github.com/ricardo-bion/ggradar), the creator of the "ggradar" package.
-- The names of many other contributors are not listed one by one, such as [Pedro Sartori](https://github.com/pedrosdr/ggradar/tree/ggradar2).
-- The original "ggradar" package could be found [here](https://github.com/ricardo-bion/ggradar).
 
 ## Install `ggradar2`
 
