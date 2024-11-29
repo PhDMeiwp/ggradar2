@@ -81,6 +81,8 @@
 #' ggradar2(df,
 #'         # radar values
 #'         values.radar = c("0", "50", "100", "150", "", "200"),
+#'         # centre position
+#'         centre.y = 0,
 #'         # grid lines
 #'         gridline.n2.colour = "blue",
 #'         gridline.n4.colour = "blue",
