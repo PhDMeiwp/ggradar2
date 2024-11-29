@@ -1,6 +1,6 @@
 #' ggradar2
 #' 
-#' This is ggradar2.r funciton from https://github.com/pedrosdr/ggradar/tree/ggradar2, with some minor adjustments made.
+#' This is ggradar2.r function from https://github.com/pedrosdr/ggradar/tree/ggradar2, with some minor adjustments made.
 #'
 #' @param plot.data dataframe comprising one row per group
 #' @param base.size text size
@@ -31,9 +31,6 @@
 #' @param grid.label.color text colour of gridline label, default is "grey30"
 #' @param gridline.label.offset.x displacement to left/right of central vertical axis
 #' @param gridline.label.offset.y displacement to top/bottom of central vertical axis
-#' @param label.gridline.min whether or not to label the mininum gridline
-#' @param label.gridline.mid whether or not to label the 'mininum'average' gridline
-#' @param label.gridline.max whether or not to label the maximum gridline
 #' @param axis.label.offset vertical displacement of axis labels from maximum grid line, measured relative to circle diameter, default is 1.15
 #' @param axis.label.size text size of axis label, default is 5
 #' @param axis.line.colour colour of axis line, default is "grey"
@@ -121,7 +118,7 @@
 #'         group.point.size = 2,
 #'         group.colours = c("red","orange","green"),
 #'         fill = TRUE,
-#'         fill.alpha = 0.5,
+#'         fill.alpha = 0.2,
 #'         axis.label.offset = 1.15,
 #'         axis.label.size = 4,
 #'         background.circle.colour = "white"

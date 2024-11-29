@@ -139,18 +139,12 @@ ggradar2(
 \item{fill}{whether to fill polygons, TRUE or FALSE? Default is FALSE}
 
 \item{fill.alpha}{if filling polygons, transparency values, default is 0.3}
-
-\item{label.gridline.min}{whether or not to label the mininum gridline}
-
-\item{label.gridline.mid}{whether or not to label the 'mininum'average' gridline}
-
-\item{label.gridline.max}{whether or not to label the maximum gridline}
 }
 \value{
 a ggplot object
 }
 \description{
-This is ggradar2.r funciton from https://github.com/pedrosdr/ggradar/tree/ggradar2, with some minor adjustments made.
+This is ggradar2.r function from https://github.com/pedrosdr/ggradar/tree/ggradar2, with some minor adjustments made.
 }
 \examples{
 
@@ -216,7 +210,7 @@ ggradar2(df,
         group.point.size = 2,
         group.colours = c("red","orange","green"),
         fill = TRUE,
-        fill.alpha = 0.5,
+        fill.alpha = 0.2,
         axis.label.offset = 1.15,
         axis.label.size = 4,
         background.circle.colour = "white"

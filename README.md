@@ -2,15 +2,7 @@ ggradar2
 ================
 
 `ggradar2` allows you to build radar charts (aka spider charts) with ggplot2. 
-This package is based on [Paul
-Williamson’s](http://rstudio-pubs-static.s3.amazonaws.com/5795_e6e6411731bb4f1b9cc7eb49499c2082.html)
-code, with new aesthetics and compatibility with ggplot2 2.0.
-
-It was inspired by
-[d3radaR](http://www.buildingwidgets.com/blog/2015/12/9/week-49-d3radarr),
-an htmlwidget built by
-[timelyportfolio](https://github.com/timelyportfolio).
-
+This package is based on [ggradar](https://github.com/ricardo-bion/ggradar) created by [Ricardo Bion](https://github.com/ricardo-bion).
 
 ## Notes
 
@@ -18,11 +10,12 @@ an htmlwidget built by
 - The names of many other contributors are not listed one by one, such as [Pedro Sartori](https://github.com/pedrosdr/ggradar/tree/ggradar2).
 - The original "ggradar" package could be found [here](https://github.com/ricardo-bion/ggradar).
 
-
 ## Install `ggradar2`
 
 ``` r
 devtools::install_github("PhDMeiwp/ggradar2", dependencies = TRUE)
+
+remotes::install_git("https://gitee.com/meiweiping/ggradar2.git")
 ```
 
 If the above method fail, please try downloading the .Zip or .tar.gz file of this R package to your local path of your computer,
@@ -37,7 +30,6 @@ devtools::install_local("~/ggradar2_0.3.tar.gz")    # tar.gz file
 ```
 
 ## Use `ggradar2`
-
 
 ``` r
 library(ggradar2) 
@@ -122,7 +114,7 @@ ggradar2(df,
         group.point.size = 2,
         group.colours = c("red","orange","green"),
         fill = TRUE,
-        fill.alpha = 0.5,
+        fill.alpha = 0.2,
         axis.label.offset = 1.15,
         axis.label.size = 4,
         background.circle.colour = "white"

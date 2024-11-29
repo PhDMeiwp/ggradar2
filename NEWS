@@ -3,8 +3,8 @@ Changes in Version 0.3
 Date: 2024-11-28
 * Change the package name from ggradar to ggradar2.
 * Add ggradar2.r function cloned from https://github.com/pedrosdr/ggradar/tree/ggradar2, with some minor adjustments made.
-* Build ggradar.Rd and ggradar2.Rd files for better understanding the usages of ggradar and ggradar2 function.
-* Fixed some known issues.
+* Build ggradar.Rd and ggradar2.Rd files for better understanding the usages of ggradar and ggradar2 functions.
+* Fix some known issues.
 * Update the DESCRIPTION file.
 * Update the README file.
 * Add the NEWS file.

@@ -135,7 +135,7 @@ ggradar(
 a ggplot object
 }
 \description{
-This is ggradar.r funciton from https://github.com/ricardo-bion/ggradar
+This is ggradar.r function from https://github.com/ricardo-bion/ggradar
 }
 \examples{
 \dontrun{

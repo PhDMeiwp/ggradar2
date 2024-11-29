@@ -1,6 +1,6 @@
 #' ggradar
 #' 
-#' This is ggradar.r funciton from https://github.com/ricardo-bion/ggradar
+#' This is ggradar.r function from https://github.com/ricardo-bion/ggradar
 #'
 #' @param plot.data dataframe comprising one row per group
 #' @param base.size text size
