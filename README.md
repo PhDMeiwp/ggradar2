@@ -13,6 +13,7 @@ This package is based on [ggradar](https://github.com/ricardo-bion/ggradar) crea
 ``` r
 # Option 1: from github
 
+install.packages("devtools")
 devtools::install_github("PhDMeiwp/ggradar2", dependencies = TRUE)
 ```
 
