@@ -12,8 +12,6 @@ This package is based on [ggradar](https://github.com/ricardo-bion/ggradar) crea
 
 ``` r
 devtools::install_github("PhDMeiwp/ggradar2", dependencies = TRUE)
-
-remotes::install_git("https://gitee.com/meiweiping/ggradar2.git")
 ```
 
 If the above method fail, please try downloading the .Zip or .tar.gz file of this R package to your local path of your computer,
@@ -22,7 +20,7 @@ and install it using the following method:
 ``` r
 devtools::install_local("~/ggradar2-master.zip")  # zip file
 
-devtools::install_local("~/ggradar2_0.3.tar.gz")    # tar.gz file
+devtools::install_local("~/ggradar2-master.tar.gz")    # tar.gz file
 
 # Please replace the path and filename with the information of the local file you downloaded. 
 ```
@@ -63,14 +61,20 @@ df <- data.frame(
 ggradar2(df,
         # radar values
         values.radar = c("0", "50", "100", "150", "", "200"),
+        grid.min = 0,
+        grid.n2 = 50,
+        grid.n3 = 100,
+        grid.n4 = 150,
+        grid.max = 200,
         # grid lines
+        gridlines.show = c(TRUE, TRUE, TRUE, TRUE, FALSE, TRUE),
         gridline.n2.colour = "blue",
         gridline.n4.colour = "blue",
         # grid labels
         gridline.label.offset.y = 0,
         # axis labels
         axis.label.offset = 1.2
-        )
+		)
 ```
 
 ![](README_files/figures/example2.png)<!-- -->
@@ -106,6 +110,12 @@ df <- data.frame(
         )
 ggradar2(df,
         values.radar = c("0", "2", "4", "6", "8", "10"),
+        grid.min = 0,
+        grid.n2 = 2,
+        grid.n3 = 4,
+        grid.n4 = 6,
+        grid.n5 = 8,
+        grid.max = 10,
         grid.line.width = 0.3,
         # group parameters
         group.line.width = 0.5,
@@ -116,7 +126,7 @@ ggradar2(df,
         axis.label.offset = 1.15,
         axis.label.size = 4,
         background.circle.colour = "white"
-        )
+		)
 ```
 
 ![](README_files/figures/example4.png)<!-- -->
@@ -136,14 +146,17 @@ df <- data.frame(
 ggradar2(df,
         # radar values
         values.radar = c("0%", "50%", "", "", "", "100%"),
+        grid.n2 = 0.5,
         # grid labels
         grid.label.color = "#000000",
         grid.label.size = 6,
         gridline.label.offset.x = -0.1,
+        # grid lines
+        gridlines.show = c(TRUE, TRUE, FALSE, FALSE, FALSE, TRUE),
         gridline.n2.colour = "#007A87",
         # group
         group.point.size = 6
-        )
+		)
 ```
 
 ![](README_files/figures/example5.png)<!-- -->

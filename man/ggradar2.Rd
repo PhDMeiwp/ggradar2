@@ -76,7 +76,7 @@ ggradar2(
 
 \item{grid.line.width}{width of gridline}
 
-\item{gridline.min.linetype}{line type of minimum gridline, default is "longdash"}
+\item{gridline.min.linetype}{line type of minimum gridline, default is "longdash". Line types can either be specified as an integer (0=blank, 1=solid, 2=dashed, 3=dotted, 4=dotdash, 5=longdash (default), 6=twodash), or as one of the character strings "blank", "solid", "dashed", "dotted", "dotdash", "longdash", or "twodash", where "blank" uses ‘invisible lines’ (i.e., does not draw them).  The aforementioned settings also apply to gridline.n2.linetype, gridline.n3.linetype, gridline.n4.linetype, gridline.n5.linetype, and gridline.max.linetype.}
 
 \item{gridline.n2.linetype}{line type of No.2 gridline, default is "longdash"}
 
