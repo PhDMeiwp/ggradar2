@@ -11,15 +11,28 @@ This package is based on [ggradar](https://github.com/ricardo-bion/ggradar) crea
 ## Install `ggradar2`
 
 ``` r
+# Option 1: from github
+
 devtools::install_github("PhDMeiwp/ggradar2", dependencies = TRUE)
 ```
 
-If the above method fail, please try downloading the .Zip or .tar.gz file of this R package to your local path of your computer,
+``` r
+# Option 2: from gitee
+
+install.packages("git2r")
+install.packages("remotes")
+library(git2r)
+library(remotes)
+remotes::install_git("https://gitee.com/meiweiping/ggradar2.git") 
+```
+
+If the above methods fail, please try downloading the .Zip or .tar.gz file of this R package to your local path of your computer,
 and install it using the following method:
 
 ``` r
-devtools::install_local("~/ggradar2-master.zip")  # zip file
+# Option 3: from local
 
+devtools::install_local("~/ggradar2-master.zip")  # zip file
 devtools::install_local("~/ggradar2-master.tar.gz")    # tar.gz file
 
 # Please replace the path and filename with the information of the local file you downloaded. 
