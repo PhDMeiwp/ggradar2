@@ -7,7 +7,8 @@ Authors@R:c(
     person(given = "Weiping", family = "Mei", role = "ctb",  email = "meiweipingg@163.com")
            )
 Description: This package exports the functionality of ggplot2 to create radar charts.
-License: GPL
+Depends: R (>= 4.3.2)
+License: GPL-3
 Imports:
     forcats,
     ggplot2
